@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanobot-channel-yandex"
+version = "0.1.0"
+description = "Yandex Messenger channel plugin for nanobot"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+]
+
+[project.entry-points."nanobot.channels"]
+yandex = "nanobot_channel_yandex:YandexChannel"
+
+[tool.setuptools.packages.find]
+include = ["nanobot_channel_yandex*"]
