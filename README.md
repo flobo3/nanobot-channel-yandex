@@ -1,5 +1,7 @@
 # nanobot-channel-yandex
 
+> **⚠️ WIP — Untested.** Yandex Messenger Bot API requires a paid Yandex 360 for Business plan. Development is based on documentation only; no live testing yet.
+
 Yandex Messenger (Яндекс Мессенджер) channel plugin for [nanobot](https://github.com/HKUDS/nanobot).
 
 ## Requirements
